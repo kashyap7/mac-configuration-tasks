@@ -1,0 +1,8 @@
+I would use the below packages, it is pretty basic.
+https://github.com/xfreebird/kcpassword
+The complex of the hashing the password is copied from 
+https://github.com/timsutton/osx-vm-templates/blob/master/scripts/support/set_kcpassword.py
+- The preferences are modified used 
+	`sudo /usr/bin/defaults write /Library/Preferences/com.apple.loginwindow autoLoginUser "<mac-profile-username>"`
+- kcpassword <password> should create and store the hash of the supplied password at the appropriate location
+
