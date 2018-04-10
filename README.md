@@ -1,0 +1,3 @@
+- Scripts to running the browser start/stop server as a service on a mac
+- Scripts related to Autologin
+- Scripts related to desktop restrictions on a standard user
