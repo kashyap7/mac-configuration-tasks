@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>EnvironmentVariables</key>
+        <dict>
+                <key>PATH</key>
+                <string>/Users/kashyapm/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+        </dict>
+        <key>Label</key>
+        <string>org.myscript</string>
+        <key>ProgramArguments</key>
+        <array>
+<!--                 <string>touch</string> -->
+                <string>/Users/kashyapm/scripts/startstop.sh</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>KeepAlive</key>
+        <true/>
+        <key>StandardOutPath</key>
+        <string>/Users/kashyapm/engineering-onboarding/desktop-onboarding/mac/browser-startstop-server/output</string>
+        <key>StandardErrorPath</key>
+        <string>/Users/kashyapm/engineering-onboarding/desktop-onboarding/mac/browser-startstop-server/err</string>
+<!--
+So these are not necessary because we the above script as a LaunchAgent!
+        <key>UserName</key>
+        <string>kashyapm</string>
+        <key>GroupName</key>
+        <string>admin</string>
+        <key>InitGroups</key>
+        <true/> -->
+</dict>
+</plist>
